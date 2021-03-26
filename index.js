@@ -29,7 +29,7 @@ app.get('/:color', function (req, res) {
             <div style="border: 1px solid black; height: 10vh; background-color: ${myColor};">
                 <h2 style="text-align: center;">NAV BAR</h2>
             </div>
-            <h1 style="color: ${myColor};">${myColor} Page</h1>
+            <h1 style="color: ${myColor};">${myColor.charAt(0).toUpperCase() + myColor.slice(1)} Page</h1>
         </body>
     `)
 })
