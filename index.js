@@ -8,6 +8,7 @@ const express = require('express')
 const app = express()
 
 // Declare routes that people can visit on the application
+
 // White Page
 app.get('/', function (req, res) {
     res.send(`
@@ -32,7 +33,6 @@ app.get('/:color', function (req, res) {
         </body>
     `)
 })
-
 
 
 // Listen to a port number defined by a local environment variable
