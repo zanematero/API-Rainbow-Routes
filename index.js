@@ -2,7 +2,7 @@
 require('dotenv').config()
 
 // Require needed node modules
-import express from 'express'
+const express = require('express')
 
 // Initialize your application by calling the function returned by the express module
 const app = express()
@@ -20,6 +20,7 @@ app.get('/', function (req, res) {
         </body>
     `)
 })
+
 
 // Color Page
 app.get('/:color', function (req, res) {
