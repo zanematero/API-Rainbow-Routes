@@ -2,7 +2,7 @@
 require('dotenv').config()
 
 // Require needed node modules
-const express = require('express')
+import express from 'express'
 
 // Initialize your application by calling the function returned by the express module
 const app = express()
