@@ -21,6 +21,9 @@ app.get('/', function (req, res) {
     `)
 })
 
+app.post('/:color', (req, res) => {
+    res.send('Hello world')
+})
 
 // Color Page
 app.get('/:color', function (req, res) {
